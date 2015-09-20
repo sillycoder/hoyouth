@@ -1,0 +1,37 @@
+body{color: #959595;}
+#header{width: 100%;height: 40px;background-color: #42bcbc;}
+
+.logo_link{display: inline-block;height: 40px;line-height: 40px;}
+.logo{width: 142px;height: 29px; background: url(/images/common.png) 0 0 transparent no-repeat;margin-top: 6px;}
+
+.menu_list{display: inline-block; float: right; height: 40px; line-height: 50px;}
+.h-profile, .h-banfu, .h-cart, .h-my{width:20px;height: 20px; background: url(/images/common.png) 0 0 transparent no-repeat;display: inline-block; margin-left: 120px;}
+.h-profile{background-position: -42px -45px;}
+.h-banfu{background-position: -129px -45px;}
+.h-cart{background-position: -83px -45px;}
+.h-my{background-position: 2px -44px;}
+
+#footer{margin-top: 60px;}
+.footer-service{overflow: hidden;display: block;}
+.footer-service li {float: left;margin-right: 124px;}
+.footer-service li:last-child{margin-right: 0;}
+.footer-service li i{background: url(/images/common.png) 0 0 transparent no-repeat;display: inline-block;height: 27px;width: 29px;vertical-align: -9px;margin-right: 6px;}
+.footer-service li:nth-child(1) i{background-position: 0px -98px;}
+.footer-service li:nth-child(2) i{background-position: 0px -139px;}
+.footer-service li:nth-child(3) i{background-position: 0px -186px;}
+.footer-service li:nth-child(4) i{background-position: 0px -228px;}
+.footer-service li:nth-child(5) i{background-position: 0px -268px;}
+
+.hr{border-top: 1px solid #959595;margin: 35px auto 50px;}
+.footer-links dt {font-size: 16px;}
+.footer-links dl {float: left; width: 90px; margin: 0 72px;font-size: 14px;line-height: 30px;text-align: left;}
+.col-contact{text-align: center;}
+.phone{font-size: 22px;}
+.site-info{background-color: #f9f9f9; padding: 20px 0 50px; margin-top: 20px;}
+.ir{float: left; background-color: #42bcbc;padding: 0px 8px 2px; margin-right: 20px;}
+
+
+.main-banner{margin-top: 10px;}
+.sub-banner{margin-top: 10px;overflow: hidden;}
+.sub-banner li {float: left;margin-right: 10px;}
+.sub-banner li:last-child{margin-right: 0;}

@@ -1,0 +1,33 @@
+body{color: #959595;background-color: #f9f9f9;}
+#header{margin-top: 20px;}
+.logo_link{display: inline-block;}
+.logo{width: 90px;height: 20px; background: url(/images/common.png) -181px 0 transparent no-repeat;}
+.register-area{background-color: #fff;margin-top: 40px;  overflow: hidden; padding-bottom: 105px;}
+.register-title{margin: 17px auto 85px;padding: 25px;width: 765px; text-align: center; border-bottom: 1px solid #d4d4d4; font-size: 20px;}
+.register-area table{display: inline-block; margin-left: 330px;}
+
+input{padding-left: 10px; height: 40px; color: #959595; border: 1px solid #eeeeee; outline: none;font-size: 14px;}
+input:focus{border-color: #b3e4e4;}
+.input-error{width: 200px;color: #ffb103;background: url(/images/common.png) -282px 1px transparent no-repeat;padding-left: 25px;margin-left: 15px;}
+.btn{border: none; width: 92px; height: 40px; cursor: pointer;color: #fff;background-color: #42bcbc;}
+.submit_btn{width: 300px;height: 40px;border-radius: 4px;}
+.register_btn{text-align: center;margin-top: 5px;}
+.td_input input{width: 288px; }
+.td_verifyCode input{width: 140px; }
+.td_verifyCode img{vertical-align: bottom; height: 42px;     border: 1px solid #eeeeee; margin-left: 10px; width: 135px;}
+
+table tr{display: block;margin-bottom: 23px;}
+#footer{text-align: center; margin-top: 54px;}
+
+.login-bg{height: 449px;margin-top: 40px;background:url(http://attach.bbs.miui.com/album/201509/20/003225tveonhrr1rrqeslr.jpg) center 0 no-repeat transparent;}
+.login-form{width: 1126px;margin: 0 auto;}
+#login-form{float: right;width: 327px;height: 425px;background-color: #fcf7f6;margin-top: 10px;}
+.note{font-size: 18px; margin: 85px auto 5px 24px;}
+#login-form .row{margin-left:24px;margin-top: 14px;width: 270px;}
+#login-form .error input{border-color: red;}
+.row input{height: 32px;width: 257px;}
+.rememberMe input{width: auto;height: auto;}
+.row .login-btn{width: 270px;height: 37px;}
+.login-register{width: auto;text-align: right;}
+.login-register a{color: #42bcbc;}
+.hidden{display: none;}
