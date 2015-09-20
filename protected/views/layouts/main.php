@@ -24,23 +24,10 @@
 	<div id="header">
         <div class="wp">
             <a href="/index.php" class="logo_link"><div class="logo"></div></a>
-            <div class="menu_list">
-                <a class="h-profile"></a>
-                <a class="h-banfu"></a>
-                <a class="h-cart"></a>
-                <a class="h-my"></a>
-            </div>
+<?php $this->renderPartial('//layouts/menu_list');?>
         </div>
 	</div><!-- header -->
-
-
-
-
 	<?php echo $content; ?>
-
-
-
-
 	<div class="clear"></div>
 
 	<div id="footer">
