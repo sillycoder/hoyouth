@@ -86,6 +86,8 @@
     </div>
 
 </div><!-- page -->
-
+<div class="hidden">
+    <script src="http://s95.cnzz.com/z_stat.php?id=1256400905&web_id=1256400905" language="JavaScript"></script>
+</div>
 </body>
 </html>
