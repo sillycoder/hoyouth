@@ -24,20 +24,23 @@
 	<div id="header">
         <div class="wp">
             <a href="/index.php" class="logo_link"><div class="logo"></div></a>
-<?php $this->renderPartial('//layouts/menu_list');?>
+            <?php $this->renderPartial('//layouts/menu_list');?>
         </div>
 	</div><!-- header -->
+    <?php if($this->id == 'shop'){
+        $this->renderPartial('//layouts/shop_sub_header');
+    }?>
 	<?php echo $content; ?>
 	<div class="clear"></div>
 
 	<div id="footer">
 		<div class="footer-service wp">
             <ul>
-                <li><a><i></i><span>全场商品包邮服务</span></a></li>
-                <li><a><i></i><span>1000+平台设计师保证</span></a></li>
-                <li><a><i></i><span>24小时设计班服</span></a></li>
-                <li><a><i></i><span>品牌T恤供应商代工</span></a></li>
-                <li><a><i></i><span>支付托管担保</span></a></li>
+                <li class="f-s-li s-1"><a><i></i><span>全场商品包邮服务</span></a></li>
+                <li class="f-s-li s-2"><a><i></i><span>1000+平台设计师保证</span></a></li>
+                <li class="f-s-li s-3"><a><i></i><span>24小时设计班服</span></a></li>
+                <li class="f-s-li s-4"><a><i></i><span>品牌T恤供应商代工</span></a></li>
+                <li class="f-s-li s-5"><a><i></i><span>支付托管担保</span></a></li>
             </ul>
         </div>
         <div class="wp clearfix hr"></div>
@@ -80,7 +83,7 @@
             <div class="ir"><div class="logo"></div></div>
             <div class="info-text">
                 <p class="sites"><span href="">北京梦想好青年科技有限责任公司</span><span class="sep">|</span><span href="">北京市海淀区后屯南路26号专家国际公馆661室</span><span class="sep">|</span><span>bingoshang@163.com</span></p>
-                <p>©<a href="http://www.hoyouth.com/" title="hoyouth.com">hoyouth.com</a> 京备案号00123-123123号 京备案号00123-123123号 京备案号00123-123123号</p>
+                <p>©<a href="http://www.hoyouth.com/" title="hoyouth.com">hoyouth.com</a> 京ICP备15049457</p>
             </div>
         </div>
     </div>
