@@ -6,10 +6,9 @@ body{color: #959595;background-color: #f9f9f9;}
 .register-title{margin: 17px auto 85px;padding: 25px;width: 765px; text-align: center; border-bottom: 1px solid #d4d4d4; font-size: 20px;}
 .register-area table{display: inline-block; margin-left: 330px;}
 
-input{padding-left: 10px; height: 40px; color: #959595; border: 1px solid #eeeeee; outline: none;font-size: 14px;}
+input{padding-left: 10px; height: 40px; color: #959595; font-size: 14px;}
 input:focus{border-color: #b3e4e4;}
 .input-error{width: 200px;color: #ffb103;background: url(/images/common.png) -282px 1px transparent no-repeat;padding-left: 25px;margin-left: 15px;}
-.btn{border: none; width: 92px; height: 40px; cursor: pointer;color: #fff;background-color: #42bcbc;}
 .submit_btn{width: 300px;height: 40px;border-radius: 4px;}
 .register_btn{text-align: center;margin-top: 5px;}
 .td_input input{width: 288px; }

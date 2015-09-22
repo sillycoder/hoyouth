@@ -13,6 +13,9 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/common.css" />
+    <?php if($this->id == 'shop'){ ?>
+        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/shop.css" />
+    <?php }?>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>

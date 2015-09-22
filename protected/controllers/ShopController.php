@@ -40,6 +40,10 @@ class ShopController extends Controller
         $this->render('bf');
     }
 
+    public function actionBfCheckout(){
 
+
+        $this->render('bfCheckout');
+    }
 
 }
