@@ -2,6 +2,29 @@
 
 class ShopController extends Controller
 {
+    public function filters()
+    {
+        return array(
+            'accessControl',
+        );
+    }
+    public function accessRules()
+    {
+        return array(
+            array('allow',
+                'actions'=>array(),
+                'expression'=>'!Yii::app()->user->isGuest'
+            ),
+            array('allow',
+                'actions'=>array('index', 'bf'),
+                'users'=>array('*'),
+            ),
+
+            array('deny',  // deny all users
+                'users'=>array('*'),
+            ),
+        );
+    }
 	public function actionIndex()
 	{
 		$this->actionBf();
@@ -37,13 +60,28 @@ class ShopController extends Controller
 
     public function actionBf()
     {
+        $color = Yii::app()->request->getPost('color');
+        $position = Yii::app()->request->getPost('position');
+        $amount = Yii::app()->request->getPost('amount');
+        $descTitle = Yii::app()->request->getPost('descTitle');
+        $descDetail = Yii::app()->request->getPost('descDetail');
+        if(isset($color) && isset($position) && isset($amount) && isset($descTitle) && isset($descDetail)){
+            $chose['color'] = intval($color);
+            $chose['position'] = $position;
+            $chose['amount'] = $amount;
+            $chose['descTitle'] = htmlspecialchars($descTitle);
+            $chose['descDetail'] = htmlspecialchars($descDetail);
+            Yii::app()->session['cart'] = $chose;
+            $this->redirect(array('order/bfCheckout'));
+        }
         $this->render('bf');
     }
 
     public function actionBfCheckout(){
-
-
-        $this->render('bfCheckout');
+//        if(empty(Yii::app()->session['cart'])){
+//            $this->redirect(array('shop/bf'));
+//        }
+//        $this->render('bfCheckout');
     }
 
 }

@@ -2,8 +2,7 @@ body{color: #959595;}
 #header{width: 100%;height: 40px;background-color: #42bcbc;}
 
 .logo_link{display: inline-block;height: 40px;line-height: 40px;}
-/*.logo{width: 142px;height: 29px; background: url(/images/common.png) 0 0 transparent no-repeat;margin-top: 6px;}*/
-.logo {width: 161px; height: 40px; background: url(/images/logo_tmp.png) 0 0 transparent no-repeat;}
+.logo{width: 142px;height: 29px; background: url(/images/common.png) 0 0 transparent no-repeat;margin-top: 6px;}
 
 .menu_list{display: inline-block; float: right; height: 40px; line-height: 50px;}
 .h-profile, .h-banfu, .h-cart, .h-my{width:20px;height: 20px; background: url(/images/common.png) 0 0 transparent no-repeat;display: inline-block; margin-left: 120px;position: relative;}

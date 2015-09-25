@@ -43,6 +43,6 @@
 .account{padding: 30px 85px 27px;background-color: #f9f9f9;}
 .p-cash-count{color: #42bcbc; font-size: 30px;border-bottom: 1px solid #cacaca;margin-bottom: 10px;padding-bottom: 10px;}
 .p-cash-e-p, .p-cash-o-s{line-height: 28px;}
-.submit_btn{width: 100%;border-radius: 4px; margin-top: 12px;}
+.submit_btn, .login_btn{width: 100%;border-radius: 4px; margin-top: 12px;}
 .p-position-p{position: relative; bottom: -26px; background-color: #f9f9f9; padding: 4px;}
 .p-position-span{font-size: 18px;color:#42bcbc; }

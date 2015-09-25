@@ -122,11 +122,15 @@
             <p class="p-cash-count">RMB&nbsp;&nbsp;<span id="order-rmb">0</span></p>
             <p class="p-cash-e-p">您选择了<span id="order-design">单图</span>定制，每件单价RMB <span class="order-each-price">39</span></p>
             <p class="p-cash-o-s">您订购班服的数量为 <span id="order-sum">0</span> 件</p>
+            <?php if(Yii::app()->user->isGuest){ ?>
+            <input class="submit_btn btn" type="submit" name="" value="登录后提交">
+            <?php }else{ ?>
             <input class="submit_btn btn" type="submit" name="" value="立即订购">
+            <?php }?>
         </div>
     </div>
 </div>
-<form action="/shop/bfCheckout" method="POST">
+<form id="dataform" action="/shop/bf" method="POST">
     <input type="hidden" name="color" value="">
     <input type="hidden" name="position" value="">
     <input type="hidden" name="amount" value="">
@@ -219,6 +223,7 @@
         if(!validInput()) {
             return false;
         }
+        $('#dataform').submit();
     });
 //  count price
     function countPrice(){
@@ -272,6 +277,43 @@
             alert('需要填写图案需求');
             return false;
         }
+        setForm();
+        return true;
+    }
+    function setForm(){
+        var color = $('.color-select');
+        for(var i=0;i<color.length;i++){
+            if(color.eq(i).hasClass('p-selected')){
+                $('#dataform input[name="color"]').val(i);
+                break;
+            }
+        }
+        var position = $('.p-select');
+        var p_val = '';
+        for(var i=0;i<position.length;i++){
+            if(position.eq(i).hasClass('p-selected')){
+                p_val += '1';
+            }else{
+                p_val += '0';
+            }
+        }
+        $('#dataform input[name="position"]').val(p_val);
+        var n_select = $('.n-select');
+        var num_val = commar = '';
+        for(var i=0;i<n_select.length;i++){
+            var num = n_select.eq(i).find('.num-input').eq(0).val();console.log(num);
+            if(num > 0){
+                num_val += commar + n_select.eq(i).find('.n-s-title').eq(0).html() + ':' + num;
+                commar = '|';
+            }
+        }
+        $('#dataform input[name="amount"]').val(num_val);
+
+        var descTitle = $('.desc-input').val();
+        var descDetail = $('.desc-ta').val();
+        $('#dataform input[name="descTitle"]').val(descTitle);
+        $('#dataform input[name="descDetail"]').val(descDetail);
+
 
     }
 </script>
