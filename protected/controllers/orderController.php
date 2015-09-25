@@ -1,6 +1,6 @@
 <?php
 
-class orderController extends Controller
+class OrderController extends Controller
 {
     public $layout='//layouts/order_column';
     public function filters()
