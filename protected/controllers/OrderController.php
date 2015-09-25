@@ -15,10 +15,10 @@ class OrderController extends Controller
                 'actions'=>array('bfCheckout', 'pay', 'index'),
                 'expression'=>'!Yii::app()->user->isGuest'
             ),
-            array('allow',
+//            array('allow',
 //                'actions'=>array('index'),
 //                'users'=>array('*'),
-            ),
+//            ),
 
             array('deny',  // deny all users
                 'users'=>array('*'),

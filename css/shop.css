@@ -1,7 +1,7 @@
 
 
 .bf-order{margin-top: 38px;}
-.shop-sub-header{height: 60px;line-height: 60px;border-bottom: 1px solid #d5d5d5;}
+.shop-sub-header{height: 60px;line-height: 60px;width: 100%;border-bottom: 1px solid #d5d5d5;}
 .shop-sub-header h1{margin: 0;float: left;font-size: 24px;font-weight: 500;}
 .sub-header-nav{float: right;}
 .sub-header-nav li{float: left;margin-left: 50px;}
