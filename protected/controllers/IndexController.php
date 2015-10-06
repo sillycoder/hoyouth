@@ -7,7 +7,7 @@ class IndexController extends Controller
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
         //$this->render('index');
-        $this->render('error');
+        $this->renderpartial('error');
     }
 
 }
