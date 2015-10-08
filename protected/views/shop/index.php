@@ -4,7 +4,7 @@
     $(document).ready(function() {
         $('#fullpage').fullpage({
             verticalCentered: false,
-            'sectionsColor': ['#efefef','#fff','#fff','#fff','#f9f9f9','#fff','#f9f9f9','#fff','#d5d0d6','#89898b']
+            sectionsColor: ['#efefef','#fff','#fff','#fff','#f9f9f9','#fff','#f9f9f9','#fff','#d5d0d6','#89898b'],
         });
     });
 </script>

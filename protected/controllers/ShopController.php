@@ -16,7 +16,7 @@ class ShopController extends Controller
                 'expression'=>'!Yii::app()->user->isGuest'
             ),
             array('allow',
-                'actions'=>array('index', 'bf','detail'),
+                'actions'=>array('index', 'bf','detail','static'),
                 'users'=>array('*'),
             ),
 
