@@ -29,7 +29,7 @@
             <?php $this->renderPartial('//layouts/menu_list');?>
         </div>
 	</div><!-- header -->
-    <?php if($this->id == 'shop' && in_array($this->action->id, array('bf','index', 'static'))){
+    <?php if($this->id == 'shop' && in_array($this->action->id, array('bf','index', 'static','detail'))){
         $this->renderPartial('//layouts/shop_sub_header');
     }?>
 	<?php echo $content; ?>

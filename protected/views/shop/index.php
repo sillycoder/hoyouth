@@ -9,8 +9,8 @@
     });
 </script>
 <style>
-    #header, .shop-sub-header{position: fixed;z-index: 10;}
-    .shop-sub-header{top: 40px;}
+    #header,.shop-sub-header{position: fixed;z-index: 10;}
+    .shop-sub-header{top: 40px;background-color: #fff;opacity: 0.7;}
     #section0{background: url(http://attach.bbs.miui.com/album/201510/08/121603zv1d70692ge971ff.jpg) center bottom no-repeat transparent;}
     #section1{background: url(http://attach.bbs.miui.com/album/201510/08/121603xqn899fl11fdq79w.jpg) center 0 no-repeat transparent;}
     #section2{background: url(http://attach.bbs.miui.com/album/201510/08/121604bny3i3ym990qyf20.jpg) center 0 no-repeat transparent;}

@@ -2,12 +2,12 @@
 <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 <div class="bf-order wp clearfix">
     <div class="model">
-        <div class="img-big"><img src="http://attach.bbs.miui.com/album/201509/21/200309cvgg94vlhm0rg99l.jpg"></div>
+        <div class="img-big"><img src="http://attach.bbs.miui.com/album/201510/08/134000wooq7hihvhbxxhx0.jpg"></div>
         <div class="img-small-div">
-            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201509/21/200309cvgg94vlhm0rg99l.jpg"></div>
-            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201509/21/202101tm03i3hhcbaazhzo.jpg"></div>
-            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201509/21/202101lthsr0ernriptcsi.jpg"></div>
-            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201509/21/202101j94naawrj9zx97lo.jpg"></div>
+            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201510/08/134000wooq7hihvhbxxhx0.jpg"></div>
+            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201510/08/134000ldjj1upulvxf1v2l.jpg"></div>
+            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201510/08/134000mdyxs0bdgvrrvexm.jpg"></div>
+            <div class="img-small"><img src="http://attach.bbs.miui.com/album/201510/08/134000wrawj11atws0waga.jpg"></div>
         </div>
     </div>
 

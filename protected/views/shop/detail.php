@@ -1,13 +1,17 @@
-<!--<script type="text/javascript" src="/js/jquery.1.7.1.min.js"></script>-->
+<script type="text/javascript" src="/js/jquery.1.7.1.min.js"></script>
 <!--<script type="text/javascript" src="/js/jquery.fullPage.min.js"></script>-->
 
 <script type="text/javascript">
-//    $(document).ready(function() {
-//        $('#fullpage').fullpage({
-//            verticalCentered: false,
-//            'sectionsColor': ['#fff','#f9f9f9','#707070','#f9f9f9','#fff','#fff','transparent','#fff','#fff']
-//        });
-//    });
+    $(document).scroll(function(){
+        var nv_fixed = $('.shop-sub-header');
+        var scrollHeight = parseInt(document.body.getBoundingClientRect().top);
+
+        if(scrollHeight < -40){
+            nv_fixed.css({'position':'fixed','top':'0px','opacity':'0.7','background-color':'#fff'});
+        }else{
+            nv_fixed.css('position','');
+        }
+    });
 </script>
 
 <style>
