@@ -1,5 +1,6 @@
 <script type="text/javascript" src="/js/jquery.1.7.1.min.js"></script>
 <script type="text/javascript" src="/js/jquery.fullPage.min.js"></script>
+<!--
 <script type="text/javascript">
     $(document).ready(function() {
         $('#fullpage').fullpage({
@@ -8,6 +9,7 @@
         });
     });
 </script>
+-->
 <style>
     #header, .shop-sub-header{position: fixed;z-index: 10;}
     .shop-sub-header{top: 40px;}
