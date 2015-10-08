@@ -18,9 +18,9 @@
     #section4{background: url(http://attach.bbs.miui.com/album/201510/08/121604hvuzrhp4cz7d7m22.jpg) center 0 no-repeat transparent;}
     #section5{background: url(http://attach.bbs.miui.com/album/201510/08/121604cz8r8ri8yvvgo7u5.jpg) center 0 no-repeat transparent;}
     #section6{background: url(http://attach.bbs.miui.com/album/201510/08/121604ttb0gbzcyynbgebc.jpg) center 0 no-repeat transparent;}
-    #section7{background: url(http://attach.bbs.miui.com/album/201510/08/121605gr8b6rpdzzpjur98.jpg) center 0 no-repeat transparent;}
-    #section8{background: url(http://attach.bbs.miui.com/album/201510/08/121605x6u7uoo6t2qucrco.jpg) center 0 no-repeat transparent;}
-    #section9{background: url(http://attach.bbs.miui.com/album/201510/08/123520z4fsgqbzxwwshmaa.jpg) center 0 no-repeat transparent;}
+    #section7{background: url(http://attach.bbs.miui.com/album/201510/08/121605gr8b6rpdzzpjur98.jpg) center bottom no-repeat transparent;}
+    #section8{background: url(http://attach.bbs.miui.com/album/201510/08/121605x6u7uoo6t2qucrco.jpg) center bottom no-repeat transparent;}
+    #section9{background: url(http://attach.bbs.miui.com/album/201510/08/123520z4fsgqbzxwwshmaa.jpg) center bottom no-repeat transparent;}
 </style>
 <div id="fullpage">
     <div class="section " id="section0"></div>
