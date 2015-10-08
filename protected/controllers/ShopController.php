@@ -16,7 +16,7 @@ class ShopController extends Controller
                 'expression'=>'!Yii::app()->user->isGuest'
             ),
             array('allow',
-                'actions'=>array('index', 'bf'),
+                'actions'=>array('index', 'bf','detail'),
                 'users'=>array('*'),
             ),
 
@@ -29,6 +29,10 @@ class ShopController extends Controller
 	{
         $this->render('index');
 	}
+    public function actionDetail()
+    {
+        $this->render('detail');
+    }
 
 	// Uncomment the following methods and override them if needed
 	/*
