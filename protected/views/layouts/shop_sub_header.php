@@ -6,8 +6,8 @@
             <li><a href="/shop">产品概述</a></li>
             <li><a href="/shop/detail">衣服介绍</a></li>
             <li><a href="/shop/static?view=process">定制流程</a></li>
-            <li><a>设计案例</a></li>
-            <li><a href="/shop/bf">定制</a></li>
+           <!-- <li><a>设计案例</a></li>-->
+            <li><a href="/weixinbuy.html">定制</a></li>
 		</ul>
 	</div>
 </div>

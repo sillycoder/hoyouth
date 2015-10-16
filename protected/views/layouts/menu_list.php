@@ -1,7 +1,7 @@
  <div class="menu_list">
 	 <?php if(!Yii::app()->user->isGuest) {?>	 
 	 <!--<span class="h-profile"></span>-->
-	<a href="/shop/bf" class="h-banfu"></a>
+	<a href="/weixinbuy.html" class="h-banfu"></a>
 	<span class="h-cart"></span>
 	<span class="h-my islogin">
 		<div class='sub-menu'>
@@ -13,7 +13,7 @@
 		</div>
 	</span>
 	 <?php }else{ ?>
-		<a href="/shop/bf" class="h-banfu"></a>
+		<a href="/weixinbuy.html" class="h-banfu"></a>
 		<span class="h-cart"></span>
 		<span class="h-my">
 			<div class='sub-menu'>

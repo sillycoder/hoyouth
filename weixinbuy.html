@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<body>
+<head>
+<title>设计好青年</title>
+<style>
+body{margin: 0;padding: 0;overflow:hidden;text-align: center;}
+#code{position: absolute;}
+</style>
+</head>
+<div id="code"><img src="http://attach.bbs.miui.com/album/201510/16/172155jic5ztb09dz73vl5.jpg" /></div>
+<img id="bg" src="http://attach.bbs.miui.com/album/201510/16/172155wowrgwgtf4qtzffs.jpg" />
+</body>
+<script>
+window.onload=function(){ 
+	var h = document.body.offsetHeight;
+	var w = document.body.offsetWidth;
+	var h1 = window.screen.availHeight;
+	if( h1 > 936 ){
+		document.getElementById('bg').style.height= h1+'px';
+	}
+	document.getElementById('code').style.left = ((w-549)/2) + 'px';
+	document.getElementById('code').style.top = ((h-229)/2) + 'px';
+};
+</script>
+</html>

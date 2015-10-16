@@ -12,10 +12,10 @@
     #header,.shop-sub-header{position: fixed;z-index: 10;}
     .shop-sub-header{top: 40px;background-color: #fff;opacity: 0.7;}
     #section0{background: url(http://attach.bbs.miui.com/album/201510/08/121603zv1d70692ge971ff.jpg) center bottom no-repeat transparent;}
-    #section1{background: url(http://attach.bbs.miui.com/album/201510/08/121603xqn899fl11fdq79w.jpg) center 0 no-repeat transparent;}
+    #section1{background: url(http://attach.bbs.miui.com/album/201510/16/154948jpfhgqo8onephgon.png) center 0 no-repeat transparent;}
     #section2{background: url(http://attach.bbs.miui.com/album/201510/08/121604bny3i3ym990qyf20.jpg) center 0 no-repeat transparent;}
-    #section3{background: url(http://attach.bbs.miui.com/album/201510/08/121604u1a61z119l63psl6.jpg) center 0 no-repeat transparent;}
-    #section4{background: url(http://attach.bbs.miui.com/album/201510/08/121604hvuzrhp4cz7d7m22.jpg) center 0 no-repeat transparent;}
+    #section3{background: url(http://attach.bbs.miui.com/album/201510/16/154948d3egz48bgw4ysssu.png) center 0 no-repeat transparent;}
+    #section4{background: url(http://attach.bbs.miui.com/album/201510/16/154949s55j2ytttpj2eskp.png) center 0 no-repeat transparent;}
     #section5{background: url(http://attach.bbs.miui.com/album/201510/08/121604cz8r8ri8yvvgo7u5.jpg) center 0 no-repeat transparent;}
     #section6{background: url(http://attach.bbs.miui.com/album/201510/08/121604ttb0gbzcyynbgebc.jpg) center 0 no-repeat transparent;}
     #section7{background: url(http://attach.bbs.miui.com/album/201510/08/121605gr8b6rpdzzpjur98.jpg) center bottom no-repeat transparent;}

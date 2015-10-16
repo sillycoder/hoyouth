@@ -12,27 +12,27 @@
     <div class="footer-links wp clearfix">
         <dl>
             <dt>关于我们</dt>
-            <dd><a href="">了解我们</a></dd>
-            <dd><a href="">加入我们</a></dd>
-            <dd><a href="">联系我们</a></dd>
+            <dd><a href="/waiting.html">了解我们</a></dd>
+            <dd><a href="/waiting.html">加入我们</a></dd>
+            <dd><a href="/waiting.html">联系我们</a></dd>
         </dl>
         <dl>
             <dt>服务支持</dt>
-            <dd><a href="">售后申请</a></dd>
-            <dd><a href="">自助服务</a></dd>
-            <dd><a href="">素材下载</a></dd>
+            <dd><a href="/waiting.html">售后申请</a></dd>
+            <dd><a href="/waiting.html">自助服务</a></dd>
+            <dd><a href="/waiting.html">素材下载</a></dd>
         </dl>
         <dl>
             <dt>帮助中心</dt>
-            <dd><a href="">购物指南</a></dd>
-            <dd><a href="">支付指南</a></dd>
-            <dd><a href="">快递方式</a></dd>
+            <dd><a href="/waiting.html">购物指南</a></dd>
+            <dd><a href="/waiting.html">支付指南</a></dd>
+            <dd><a href="/waiting.html">快递方式</a></dd>
         </dl>
         <dl>
             <dt>关注我们</dt>
-            <dd><a href="">新浪微博</a></dd>
-            <dd><a href="">官方微信</a></dd>
-            <dd><a href="">QQ空间</a></dd>
+            <dd><a href="/waiting.html">新浪微博</a></dd>
+            <dd><a href="/waiting.html">官方微信</a></dd>
+            <dd><a href="/waiting.html">QQ空间</a></dd>
         </dl>
         <div class="col-contact">
             <p class="phone">010-62934180</p>
