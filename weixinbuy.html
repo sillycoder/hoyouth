@@ -12,14 +12,15 @@ body{margin: 0;padding: 0;overflow:hidden;text-align: center;}
 </body>
 <script>
 window.onload=function(){ 
-	var h = document.body.offsetHeight;
+	var h = document.body.scrollHeight;
 	var w = document.body.offsetWidth;
 	var h1 = window.screen.availHeight;
+	console.log(h1);
 	if( h1 > 936 ){
 		document.getElementById('bg').style.height= h1+'px';
 	}
 	document.getElementById('code').style.left = ((w-549)/2) + 'px';
-	document.getElementById('code').style.top = ((h-229)/2) + 'px';
+	document.getElementById('code').style.top = ((h-429)/2) + 'px';
 };
 </script>
 </html>
