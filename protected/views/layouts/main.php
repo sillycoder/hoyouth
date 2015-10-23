@@ -17,7 +17,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/shop.css" />
     <?php }?>
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<title>设计好青年——年轻人的个性化品牌，好青年班服定制网站</title>
 </head>
 
 <body>
